@@ -17,7 +17,7 @@ bot.onText(/\/start/, (msg) => {
           {
             text: "📝 Test ishlash",
             web_app: {
-              url: `https://quizapp-alpha-sage.vercel.app/start/test?chatId=${chatId}`,
+              url: `https://quizapp-alpha-sage.vercel.app/start?chatId=${chatId}`,
             },
           },
         ],
