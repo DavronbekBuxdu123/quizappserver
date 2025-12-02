@@ -63,10 +63,10 @@ bot.on("callback_query", (query) => {
   if (query.data === "help") {
     bot.sendMessage(
       chatId,
-      `🆘 *Yordam bo‘limi*\n
+      `🆘 *Yordam bo\\‘limi*\n
 📝 *Test ishlash* — tayyor tuzilgan testlarni ishlaysiz.  
-⚙️ *Test yaratish* — o‘zingiz test yaratib, boshqalarga berishingiz mumkin.  
-🔍 *Statistika* — o‘z natijangiz va testlaringizni ko‘rasiz.
+⚙️ *Test yaratish* — o\\‘zingiz test yaratib, boshqalarga berishingiz mumkin.  
+🔍 *Statistika* — o\\‘z natijangiz va testlaringizni ko\\‘rasiz.
 
 Agar biror joyda muammo chiqsa — menga yozing.\n
 \`@Feruz_Akmalovich_o1\``,
