@@ -69,8 +69,8 @@ bot.on("callback_query", (query) => {
 🔍 *Statistika* — o‘z natijangiz va testlaringizni ko‘rasiz.
 
 Agar biror joyda muammo chiqsa — menga yozing.\n
-"@Feruz_Akmalovich_o1 "`,
-      { parse_mode: "Markdown" }
+\`@Feruz_Akmalovich_o1\``,
+      { parse_mode: "MarkdownV2" }
     );
   }
 });
