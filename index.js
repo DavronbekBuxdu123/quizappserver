@@ -68,7 +68,8 @@ bot.on("callback_query", (query) => {
 ⚙️ *Test yaratish* — o‘zingiz test yaratib, boshqalarga berishingiz mumkin.  
 🔍 *Statistika* — o‘z natijangiz va testlaringizni ko‘rasiz.
 
-Agar biror joyda muammo chiqsa — menga yozing.`,
+Agar biror joyda muammo chiqsa — menga yozing.\n
+"@Feruz_Akmalovich_o1 "`,
       { parse_mode: "Markdown" }
     );
   }
