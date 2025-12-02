@@ -56,21 +56,19 @@ Quyidagi bo‘limlardan birini tanlang:`,
   );
 });
 
-// Callback query uchun yordam bo‘limi
 bot.on("callback_query", (query) => {
   const chatId = query.message.chat.id;
 
   if (query.data === "help") {
     bot.sendMessage(
       chatId,
-      `🆘 *Yordam bo\\‘limi*\n
+      `🆘 *Yordam bo‘limi*\n
 📝 *Test ishlash* — tayyor tuzilgan testlarni ishlaysiz.  
-⚙️ *Test yaratish* — o\\‘zingiz test yaratib, boshqalarga berishingiz mumkin.  
-🔍 *Statistika* — o\\‘z natijangiz va testlaringizni ko\\‘rasiz.
+⚙️ *Test yaratish* — o‘zingiz test yaratib, boshqalarga berishingiz mumkin.  
+🔍 *Statistika* — o‘z natijangiz va testlaringizni ko‘rasiz.
 
-Agar biror joyda muammo chiqsa — menga yozing.\n
-\`@Feruz_Akmalovich_o1\``,
-      { parse_mode: "MarkdownV2" }
+Agar biror joyda muammo chiqsa — menga yozing. "@Feruz_Akmalovich_o1"`,
+      { parse_mode: "Markdown" }
     );
   }
 });
